@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lorem Ipsum - All the facts - Lipsum generator</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script_szamologep.js"></script>
+    
+    <script>
+        window.alert("betöltött!");
+    </script>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Kattintottál!";
+            document.getElementById("demo2").innerHTML = "Kattintottál!";
+            document.getElementById("demo3").innerHTML = "Kattintottál!";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="Outer">
+        <div id="Inner">
+
+            <h1>Lorem Ipsum</h1>
+            
+            <div>
+                <p id="demo">
+                    Tesztüzenet
+                </p>
+                <p id="demo2">
+                    Tesztüzenet_2
+                </p>
+                <p id="demo3">
+                    Tesztüzenet_3
+                </p>
+
+                <p id="demo">Varázsgomb</p>
+                <button type="button" onclick="myFunction()">Katt</button>
+
+                <p id="demo4">
+                    <script>
+                        document.write(5 + 6);
+                    </script>
+                </p>
+
+            </div>
+
+            <div id="Content">
+                <div id="lipsum">
+                    <p>Számoljuk!</p>
+                    
+                    <p>Számok
+                    <input type="text" id="elsoSzam" value="0">
+                    <input type="text" id="masodikSzam" value="0">
+                    </p>
+                    <p id="eredmeny">
+                        Az eredmény: 
+                    </p>
+
+                    <p>
+                        <button type="button" onclick="szamotOsszead(3,2)">Összeadás</button>
+                        <button type="button" onclick="szamotKivon(3,2)">Kivonás</button>
+                        <button type="button" onclick="szamotSzoroz(3,2)">Szorzás</button>
+                        <button type="button" onclick="szamotOszt(3,2)">Osztás</button>
+                        <button type="button" onclick="gyokotVon(9)">Gyökvonás</button>
+                    </p>
+                    <p>
+                        Színezzünk:
+                        <button type="button" onclick="pirosHatter()">Piros</button>
+                        <button type="button" onclick="kekHatter()">Kék</button>
+                        <button type="button" onclick="zoldHatter()">Zöld</button>
+                        
+                    </p>
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                        egestas. Quisque elementum vel magna ullamcorper bibendum. Nullam pharetra, nisi sed
+                        pharetra pulvinar, tortor tortor porttitor massa, a laoreet nulla ipsum nec risus. Ut id
+                        augue enim. Donec ut velit ut neque placerat faucibus. Nulla ante velit, condimentum
+                        hendrerit risus eu, hendrerit viverra orci. Nunc imperdiet augue non nisi fringilla varius.
+                        In elementum tempor mauris eu facilisis.
+                    </p>
+                    <p>
+                        Fusce sodales aliquam ipsum, eu interdum ante pretium sed. Nam at arcu risus. Mauris urna
+                        est, congue sit amet elit a, ultricies iaculis tortor. Suspendisse auctor iaculis ante eu
+                        convallis. Praesent lobortis sapien sit amet viverra efficitur. Vestibulum eget elit in est
+                        mollis luctus eget a tellus. Curabitur et vehicula libero, a porta magna.
+                    </p>
+                    <p>
+                        Nulla congue interdum elit, a cursus dolor tempor vel. Suspendisse vitae nunc sit amet
+                        turpis pharetra tincidunt eget nec augue. Ut tincidunt, nisi at porttitor varius, mauris
+                        felis eleifend ipsum, eget efficitur dui urna id ante. Nullam pharetra justo at erat
+                        ullamcorper tincidunt. Ut eleifend arcu quis orci ultricies porta. Mauris rutrum aliquam
+                        tortor, et laoreet mi efficitur vitae. In lacus velit, mattis nec ornare at, gravida in
+                        neque. Suspendisse vitae odio at felis efficitur aliquam. In ornare metus enim, consequat
+                        efficitur velit semper id. Duis sed augue venenatis, elementum eros et, commodo sem.
+                        Suspendisse sit amet lacinia risus, eu sodales erat. Curabitur dapibus nulla aliquet pretium
+                        aliquam. Aenean vehicula urna vel lectus maximus mollis. Duis erat tellus, tincidunt id
+                        eleifend ac, aliquet eu metus.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
